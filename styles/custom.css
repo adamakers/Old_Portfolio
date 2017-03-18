@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+/*************************
+  GENERAL STYLES
+*************************/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+hr {
+  border: none;
+  border-top: 5px solid green;
+  width: 120px;
+  margin-bottom: 5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*************************
+  CONTAINERS
+*************************/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+
+/*************************
+  REUSABLE CLASSES
+*************************/
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+/*************************
+  HEADER
+*************************/
+
+header {
+  height: 100vh;
+  max-height: 1100px;
+  min-height: 400px;
+  background-color: #93ACB5;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-content h3 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.main-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.6rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link .fa {
+  display: block;
+  font-size: 3rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active {
+  color: green;
+}
+
+.header-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-link:link,
+.arrow-link:visited {
+  color: white;
+}
+
+.header-arrow .fa-angle-down {
+  font-size: 5rem;
+}
+
+
+/*************************
+  ABOUT
+*************************/
+
+.about-content h3 {
+  font-size: 2.4rem;
+}
+
+.about-me {
+  margin-bottom: 3rem;
+}
+
+.about-me p {
+  font-size: 1.6rem;
+}
+
+.about-skills .skill-box {
+  margin: 1rem;
+  display: inline-block;
+}
+
+.about-skills .skill-box i {
+  font-size: 5rem;
+  
+}
+
+.about-col {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*************************
+  PROJECTS
+*************************/
+
+.projects-box {
+  width: 100%;
+  //background-color: red;
+}
+
+.projects-box img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*************************
+  MEDIA QUERIES
+*************************/
+
+@media screen and (min-width: 350px) {
+
+
+  /*************************
+    HEADER
+  *************************/
+
+  .nav-link {
+    margin: 0 5px;
+    padding: 1.5rem 2rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  /*************************
+    CONTAINER
+  *************************/
+  .container {
+    width: 90%;
+    max-width: 900px;
+
+  }
+
+
+  /*************************
+    ABOUT
+  *************************/
+
+  .about-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .about-col {
+    width: 50%;
+    padding: 0 2.5%;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .about-skills .skill-box i {
+    font-size: 6rem;
+  }
+
+  /*************************
+    PROJECTS
+  *************************/
+
+  .projects-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .projects-box {
+    width: 48%;
+    padding: 0.5%;
+    margin-bottom: 2.4rem;
+  }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+
+
+  /*************************
+    CONTAINER
+  *************************/
+
+  .container {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+
+  /*************************
+    PROJECTS
+  *************************/
+  .projects-box {
+    width: 32%;
+    padding: 0;
+    margin-bottom: 2.4rem;
+  }
+
+
+}
+
