@@ -21,17 +21,19 @@ html {
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-color: #4CB0D5;
 }
 
 section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 hr {
   border: none;
-  border-top: 5px solid green;
-  width: 120px;
+  border-top: 5px solid #F58F29;
+  width: 140px;
   margin-bottom: 5rem;
 }
 
@@ -45,6 +47,8 @@ a {
 
 ul {
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 li {
@@ -63,10 +67,13 @@ li {
   width: 100%;
 }
 
-
 /*************************
   REUSABLE CLASSES
 *************************/
+
+.ease-color {
+  transition: color 0.3s ease-in-out;
+}
 
 .text-center {
   text-align: center;
@@ -74,6 +81,26 @@ li {
 
 .section-title {
   font-size: 3rem;
+  margin-top: 0;
+}
+
+.secondary-title {
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+
+/*************************
+  PALETTE
+*************************/
+
+header {background-color: #247BA0}
+.about {background-color:#FAFFFD}
+.projects {background-color:#247BA0}
+.contact {background-color:#FAFFFD}
+footer {background-color:#247BA0}
+
+.txt-dark {
+  color: #222;
 }
 
 /*************************
@@ -84,12 +111,10 @@ header {
   height: 100vh;
   max-height: 1100px;
   min-height: 400px;
-  background-color: #93ACB5;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   position: relative;
-  color: #fff;
 }
 
 .header-content {
@@ -118,12 +143,6 @@ header {
   text-align: center;
   padding: 1rem;
   font-size: 1.6rem;
-  transition: color 0.3s ease-in-out;
-}
-
-.nav-link .fa {
-  display: block;
-  font-size: 3rem;
 }
 
 .nav-link:link,
@@ -134,7 +153,7 @@ header {
 .nav-link:focus,
 .nav-link:hover,
 .nav-link:active {
-  color: green;
+  color: #F58F29;
 }
 
 .header-arrow {
@@ -158,16 +177,19 @@ header {
   ABOUT
 *************************/
 
-.about-content h3 {
-  font-size: 2.4rem;
-}
-
 .about-me {
   margin-bottom: 3rem;
 }
 
 .about-me p {
   font-size: 1.6rem;
+}
+
+.skill-icon-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .about-skills .skill-box {
@@ -177,7 +199,6 @@ header {
 
 .about-skills .skill-box i {
   font-size: 5rem;
-  
 }
 
 .about-col {
@@ -192,7 +213,6 @@ header {
 
 .projects-box {
   width: 100%;
-  //background-color: red;
 }
 
 .projects-box img {
@@ -200,12 +220,50 @@ header {
   height: 100%;
 }
 
+/*************************
+  CONTACT
+*************************/
+
+.contact-col a:link,
+.contact-col a:visited {
+  color: #222;
+}
+
+.contact-col a:focus,
+.contact-col a:hover,
+.contact-col a:active {
+  color: rgba(0,0,0,.5);
+}
+
+.email-col {
+  margin-bottom: 4rem;
+}
+
+.email-col a {
+  font-size: 2rem;
+}
+
+.dev-col li {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+.dev-col a {
+  font-size: 3.4rem;
+}
 
 
+/*************************
+  FOOTER
+*************************/
 
+footer {
+  padding: 2rem 0;
+}
 
-
-
+footer h4 {
+  font-size: 1.4rem;
+  margin: 0;
+}
 
 
 /*************************
@@ -213,7 +271,6 @@ header {
 *************************/
 
 @media screen and (min-width: 350px) {
-
 
   /*************************
     HEADER
@@ -234,7 +291,6 @@ header {
   .container {
     width: 90%;
     max-width: 900px;
-
   }
 
 
@@ -252,8 +308,6 @@ header {
     width: 50%;
     padding: 0 2.5%;
     margin-bottom: 0;
-    display: inline-block;
-    vertical-align: top;
   }
 
   .about-skills .skill-box i {
@@ -276,11 +330,22 @@ header {
     margin-bottom: 2.4rem;
   }
 
+  /*************************
+    CONTACT
+  *************************/
+
+  .contact-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .contact-col {
+    width: 48%;
+  }
 }
 
 @media screen and (min-width: 1100px) {
-
-
 
   /*************************
     CONTAINER
