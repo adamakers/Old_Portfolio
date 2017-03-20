@@ -95,7 +95,7 @@ li {
 
 header {background-color: #247BA0}
 .about {background-color:#FAFFFD}
-.projects {background-color:#247BA0}
+.projects {background-color:darkslategray}
 .contact {background-color:#FAFFFD}
 footer {background-color:#247BA0}
 
@@ -211,31 +211,72 @@ header {
   PROJECTS
 *************************/
 
-.projects-box {
+.project-box {
   width: 100%;
-  position: relative;
-}
-
-.projects-box img {
-  width: 100%;
-  height: 100%;
-}
-
-.projects-box-summary {
+  height: auto;
+  margin-bottom: 2rem;
   background-color: green;
-  padding: 2rem;
-  overflow: hidden;
+}
+
+.project-box-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-box-header h3,
+.project-box-header .fa {
+  display: inline-block;
+}
+
+.project-box-header .fa {
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 50%;
+}
+
+.fa.hide {
+  display: none;
+}
+
+.project-box-header h3 {
+  font-size: 2rem;
   text-align: left;
 }
 
-.projects-box-summary h3 {
-  font-size: 2.2rem;
-  margin-top: 0;
-  padding-left: 1.5rem;
+.img-box {
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
-.projects-box-summary p {
+.project-box-summary {
   font-size: 1.4rem;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  overflow-y: hidden;
+  //opacity: 0;
+  transition: all 0.5s ease-in-out
+}
+
+.project-box-summary.box-open {
+  height: 100%;
+  background-color: red;
+  //opacity: 1;
+}
+
+.project-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 /*************************
@@ -342,9 +383,8 @@ footer h4 {
     justify-content: space-between;
   }
 
-  .projects-box {
+  .project-box {
     width: 48%;
-    padding: 0.5%;
     margin-bottom: 2.4rem;
   }
 
@@ -378,7 +418,7 @@ footer h4 {
   /*************************
     PROJECTS
   *************************/
-  .projects-box {
+  .project-box {
     width: 32%;
     padding: 0;
     margin-bottom: 2.4rem;
