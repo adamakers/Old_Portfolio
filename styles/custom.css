@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 /*************************
   GENERAL STYLES
 *************************/
@@ -20,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background-color: #247BA0;
 }
@@ -62,9 +61,10 @@ li {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   width: 100%;
+  max-width: 600px;
 }
 
 /*************************
@@ -93,11 +93,13 @@ li {
   PALETTE
 *************************/
 
-header {background-color: #247BA0}
-.about {background-color:#FAFFFD}
-.projects {background-color:#247BA0}
-.contact {background-color:#FAFFFD}
-footer {background-color:#247BA0}
+.bg-color-dark {
+  background-color: #247BA0
+}
+
+.bg-color-light {
+  background-color:#FAFFFD;
+}
 
 .txt-dark {
   color: #222;
@@ -200,6 +202,7 @@ header {
 
 .about-skills .skill-box i {
   font-size: 5rem;
+  background-color: #FAFFFD;
 }
 
 .skill-pill {
@@ -213,7 +216,6 @@ header {
 }
 
 .about-col {
-  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -226,6 +228,9 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px -2px rgba(0,0,0,0.6);
+  overflow: hidden;
 }
 
 .project-box-header {
@@ -233,31 +238,15 @@ header {
   color: #222;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  padding-top: 1px;
+  padding-bottom: 1px;
   align-items: center;
-  border-radius: 5px 5px 0 0;
-}
-
-.project-box-header h3,
-.project-box-header .fa {
-  display: inline-block;
-}
-
-.project-box-header .fa {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 50%;
-}
-
-.fa.hide {
-  display: none;
+  border-bottom: 10px solid #26A96C;
 }
 
 .project-box-header h3 {
   font-size: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 .img-box {
@@ -266,7 +255,7 @@ header {
   position: relative;
 }
 
-.project-box-summary {
+/*.project-box-summary {
   font-size: 1.4rem;
   color: black;
   padding: 1rem;
@@ -277,18 +266,30 @@ header {
   height: 0;
   overflow-y: hidden;
   transition: all 0.5s ease-in-out
+}*/
+
+/*.project-box-summary > a {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border-top: 1px solid white;
+  background-color: #247BA0;
+  color: white;
+  margin-top: 1rem;
 }
 
 .project-box-summary.box-open {
   height: 100%;
   background-color: rgba(255,255,255, 0.9);
-}
+}*/
 
 .project-box img {
   width: 100%;
   height: 100%;
   display: block;
 }
+
 
 /*************************
   CONTACT
@@ -360,7 +361,7 @@ footer h4 {
   *************************/
   .container {
     width: 90%;
-    max-width: 900px;
+    max-width: 1100px;
   }
 
 
@@ -376,8 +377,17 @@ footer h4 {
 
   .about-col {
     width: 50%;
-    padding: 0 2.5%;
     margin-bottom: 0;
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .about-col:first-child {
+    margin-right: 2.5%;
+  }
+
+  .about-col:last-child {
+    margin-left: 2.5%;
   }
 
   .about-skills .skill-box i {
@@ -414,15 +424,14 @@ footer h4 {
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
 
   /*************************
     CONTAINER
   *************************/
 
   .container {
-    width: 80%;
-    max-width: 1200px;
+    max-width: 1300px;
   }
 
 

@@ -16,7 +16,7 @@
 
 
     <!--HEADER-->
-    <header class="text-center">
+    <header class="bg-color-dark text-center">
       <div class="header-content item-center text-center">
         <h1>Adam Akers</h1>
         <h3>Front-End Developer</h3>
@@ -37,11 +37,11 @@
     </header><!--/.header-->
 
     <!--ABOUT-->
-    <section id="page-about" class="about txt-dark">
+    <section id="page-about" class="about bg-color-light txt-dark">
       <div class="container">
         <h2 class="section-title text-center">About</h2>
         <hr>
-        <div class="about-content clearfix">
+        <div class="about-content">
           <div class="about-me about-col">
             <h3 class="text-center secondary-title">Me</h3>
             <p>
@@ -64,6 +64,7 @@
               <span class="skill-box"><i class="dev-icon devicon-javascript-plain colored"></i></span>
               <span class="skill-box"><i class="dev-icon devicon-jquery-plain-wordmark colored"></i></span>
               <span class="skill-box skill-pill">AJAX</span>
+              <span class="skill-box skill-pill">JSON</span>
               <span class="skill-box"><i class="dev-icon devicon-bootstrap-plain-wordmark colored"></i></span>
               <!--<span class="skill-box"><i class="dev-icon devicon-sass-original colored"></i></span>-->
               <span class="skill-box"><i class="dev-icon devicon-github-plain-wordmark colored"></i></span>
@@ -73,120 +74,84 @@
       </div>
     </section><!--/.about-->
 
-    <section id="page-projects" class="projects">
+    <section id="page-projects" class="projects bg-color-dark">
       <div class="container">
         <h2 class="section-title text-center">Projects</h2>
         <hr>
         <div class="projects-content">
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>StartBootstrap</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  A clone of a popular <a href="https://blackrockdigital.github.io/startbootstrap-creative/">Bootstrap Theme</a>.
-                  Built using HTML, CSS and a little bit of JavaScript and jQuery.  I learned a lot about Boostrap by building this page
-                  and look forward to using in the future for other projects when necessary.
-                </p>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>StartBootstrap</h3>
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
-            </div>
-          </div>
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>Oaks Creek</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  I built this page to see if a local fly shop would be interested in updating their outdated website.  Unfortunately the 
-                  owner was not interested in updating at the time, however, I continued to develop the page for a fake fly shop. 
-                  HTML, CSS, Bootstrap and jQuery were used here.
-                </p>
+              <div class="img-box">
+                <img src="img/startbs.PNG" alt="Project1">
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
             </div>
-          </div>
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>Twitch Viewer</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  This project was a ton of fun!  A "hub" for Twitch if you will.  Using the Twitch API to call information about a predefined 
-                  list of viewers you can see who is offline/online (and the game they are playing), as well as watch the stream from the page 
-                  itself.  Built using HTML, CSS and jQuery, AJAX.
-                </p>
+          </a>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>Oaks Creek</h3>
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
-            </div>
-          </div>
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>Epok</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  Epok is a time management tool that tracks the amount of time you spend on a particular task.  I came up with the idea during my
-                  my time at Garmin, and thought it would make for a good tool to use for outside of work as well.  I enjoyed building Epok
-                  because it uses vanilla JavaScript and learned a lot about JS along the way.
-                </p>
+              <div class="img-box">            
+                <img src="img/oaksCreek.PNG" alt="Project1">
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
             </div>
-          </div>
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>Calculator</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  This implementation of a calulator was a rewarding challenge! This project helped me learn a lot about events and
-                  working with the DOM as well as some other programming principles.  I tried to take the design and make it look as much like a 
-                  calculator as possible.  A fun and rewarding project!  Built with Vanilla JS.
-                </p>
+          </a>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>Twitch Viewer</h3>
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
-            </div>
-          </div>
-          <div class="project-box">
-            <div class="project-box-header">
-              <h3>Simon</h3>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up hide" aria-hidden="true"></i>
-            </div>
-            <div class="img-box">
-              <div class="project-box-summary">
-                <p>
-                  The classic game we all know and love, Simon.  This project was a blast to build.  Again, built with vanilla 
-                  JavaScript, I tried to imitate the 80's game with this implementation.  Fun to build with both the CSS and the JavaScript.  
-                  Do you think you can beat it?
-                </p>
+              <div class="img-box">             
+                <img src="img/twitch-stream.png" alt="Project1">
               </div>
-              <img src="http://placehold.it/400x350" alt="Project1">
             </div>
-          </div>
+          </a>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>Epok</h3>
+              </div>
+              <div class="img-box">           
+                <img src="img/epok.png" alt="Project1">
+              </div>
+            </div>
+          </a>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>Calculator</h3>
+              </div>
+              <div class="img-box">             
+                <img src="img/calc.png" alt="Project1">
+              </div>
+            </div>
+          </a>
+
+          <a class="proects-box-link" href="#">
+            <div class="project-box">
+              <div class="project-box-header">
+                <h3>Simon</h3>
+              </div>
+              <div class="img-box">
+                <img src="img/simon.png" alt="Project1">
+              </div>
+            </div>
+          </a>
 
         </div>
       </div>
     </section>
 
     <!--CONTACT-->
-    <section class="contact txt-dark">
+    <section id="page-contact" class="contact bg-color-light txt-dark">
       <div class="container text-center">
         <h2 class="section-title">Contact</h2>
         <hr>
@@ -208,7 +173,7 @@
     </section>
 
     <!--FOOTER-->
-    <footer class="text-center">
+    <footer class="bg-color-dark text-center">
       <h4>2017 &copy; Adam Akers</h4>
     </footer>
 
