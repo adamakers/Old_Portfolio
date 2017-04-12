@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 
+  //lock navigation when scrolling
   $(function() {
     var $window = $(window);
     var $mainNav = $('.main-nav');
@@ -15,6 +16,7 @@ $(document).ready(function(){
     });
   });
 
+  //smooth scroll
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
