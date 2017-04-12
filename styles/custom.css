@@ -95,7 +95,7 @@ li {
 *************************/
 
 .bg-color-dark {
-  background-color: #247BA0
+  background-color: #247BA0;
 }
 
 .bg-color-light {
@@ -136,6 +136,20 @@ header {
 }
 
 .main-nav {
+  transition: all 0.3s ease;
+}
+
+.main-nav.locked {
+  background-color: #247BA0;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

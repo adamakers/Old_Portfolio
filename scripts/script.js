@@ -1,19 +1,34 @@
-const projectBox = document.querySelectorAll('.project-box');
 
+$(document).ready(function(){
 
-projectBox.forEach(function(box){
-  box.addEventListener('click', function(e){
-    let boxSummary = box.querySelector('.project-box-summary');
-    let target = e.target;
-
-    //onsole.log(target);
-    if (target && target.nodeName === 'I') {
-      boxSummary.classList.toggle('box-open');
-    }
-    // var summary = document.querySelector('.project-box-summary');
-    // summary.classList.toggle('box-open');
+  $(function() {
+    var $window = $(window);
+    var $mainNav = $('.main-nav');
+    var distance = $mainNav.offset().top;
+    
+    $window.scroll(function(){
+      if ($window.scrollTop() >= distance) {
+        $mainNav.addClass('locked');
+      } else {
+        $mainNav.removeClass('locked');
+      }
+    });
   });
-})
 
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
 
+});
 
