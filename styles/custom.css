@@ -149,6 +149,10 @@ header {
   z-index: 999;
 }
 
+.main-nav.locked .nav-list {
+  text-align: left;
+}
+
 .nav-list {
   display: flex;
   flex-flow: row wrap;
