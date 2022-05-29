@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T02:02:13.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="xwMRygk3Xnky_JQ0tar1" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-29T02:07:54.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="AvnG_bYzM5EpdGkf5D77" version="18.1.3" type="github">
   <diagram id="p1iauZd5ZaeVkKwpbt0a" name="Page-2">
     <mxGraphModel dx="2942" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
           <mxGeometry x="230" y="91" width="66" height="66" as="geometry" />
         </mxCell>
         <mxCell id="76p5hlt1II4S2Ar3bMs8-14" value="&lt;h1&gt;Skills&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="230" y="190" width="300" height="600" as="geometry" />
+          <mxGeometry x="230" y="190" width="410" height="600" as="geometry" />
         </mxCell>
         <mxCell id="76p5hlt1II4S2Ar3bMs8-15" value="" style="image;image=img/lib/atlassian/Bitbucket_Logo.svg;fontSize=24;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="270" y="400" width="57" height="50" as="geometry" />
@@ -132,6 +132,42 @@
         </mxCell>
         <mxCell id="76p5hlt1II4S2Ar3bMs8-60" value="repeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="1">
           <mxGeometry x="980" y="690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1042" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-62" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/menu-128.png" vertex="1" parent="1">
+          <mxGeometry x="600" y="1060" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-63" value="" style="image;image=img/lib/atlassian/Atlassian_Logo.svg;fontSize=24;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1051" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-64" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="960" width="470" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1550" width="430" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-66" value="Adam Akers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1580" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-67" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.linkedin;fillColor=#0095DB;gradientColor=#006391;fontSize=24;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1675" width="37.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-68" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-2106/24/social_media_social_media_logo_codepen-128.png;fontSize=24;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="1678" width="37" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-69" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github;fontSize=24;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1675" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-71" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_copyright_48px-128.png;fontSize=23;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="359.4" y="1730" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-72" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Copyright 2022&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="393.7" y="1728" width="102.6" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="76p5hlt1II4S2Ar3bMs8-73" value="HOME | ABOUT | SKILLS | WORK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1630" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
